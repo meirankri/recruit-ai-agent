@@ -1,6 +1,6 @@
 import os
 from dotenv import load_dotenv
-from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate
 from langchain_mistralai import ChatMistralAI
 from fastapi import FastAPI
 from pydantic import BaseModel

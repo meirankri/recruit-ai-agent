@@ -2,7 +2,7 @@ import requests
 import json
 from time import sleep
 
-API_URL = "http://localhost:3000/analyze/"
+API_URL = "http://localhost:8000/analyze/"
 
 # Données de test
 job_offers = {
